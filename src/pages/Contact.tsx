@@ -69,16 +69,16 @@ const Contact = () => {
     {
       icon: Phone,
       title: "Call Us",
-      description: "Mon-Fri, 8am-6pm EST",
-      value: "1-800-FLEXSPACE",
-      href: "tel:+18003539772",
+      description: "Mon-Fri, 8am-6pm ",
+      value: "7011520785",
+      href: "tel:+91 7011520785",
     },
     {
       icon: Mail,
       title: "Email Us",
       description: "We reply within 24 hours",
-      value: "hello@flexspace.com",
-      href: "mailto:hello@flexspace.com",
+      value: "hello@renttile.com",
+      href: "mailto:hello@renttile.com",
     },
     {
       icon: MessageSquare,
@@ -90,19 +90,19 @@ const Contact = () => {
   ];
 
   const officeLocations = [
-    { city: "New York", address: "350 Fifth Avenue, Suite 7000" },
-    { city: "San Francisco", address: "555 Market Street, 4th Floor" },
-    { city: "London", address: "1 Canada Square, Canary Wharf" },
-    { city: "Singapore", address: "1 Raffles Place, Tower 2" },
+    { city: "Noida", address: "Sector-10 A-30 " },
+    { city: "Noida", address: "Sector-63 B-20 Ground Floor" },
+    // { city: "London", address: "1 Canada Square, Canary Wharf" },
+    // { city: "Singapore", address: "1 Raffles Place, Tower 2" },
   ];
 
   return (
     <>
       <Helmet>
-        <title>Contact Us | FlexSpace - Get in Touch</title>
+        <title>Contact Us | RentTile - Get in Touch</title>
         <meta 
           name="description" 
-          content="Get in touch with FlexSpace. We're here to help you find the perfect workspace solution. Contact us by phone, email, or visit one of our offices." 
+          content="Get in touch with RentTile. We're here to help you find the perfect workspace solution. Contact us by phone, email, or visit one of our offices." 
         />
       </Helmet>
 
@@ -192,7 +192,7 @@ const Contact = () => {
                         type="tel"
                         value={formData.phone}
                         onChange={(e) => handleChange("phone", e.target.value)}
-                        placeholder="+1 (555) 123-4567"
+                        placeholder="+91 9876543210"
                       />
                     </div>
                     <div className="space-y-2">
@@ -327,7 +327,7 @@ const Contact = () => {
                   <p className="text-primary-foreground/80 text-sm mb-4">
                     Check out our frequently asked questions for quick answers to common queries.
                   </p>
-                  <Button variant="outline" className="border-primary-foreground/30 text-primary-foreground hover:bg-primary-foreground/10">
+                  <Button variant="outline" className="border-primary-foreground/30 text-foreground hover:bg-primary-foreground/10">
                     View FAQ
                   </Button>
                 </div>

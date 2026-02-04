@@ -30,105 +30,329 @@ const properties = {
     id: 1,
     title: "Executive Private Office",
     type: "Private Office",
-    location: "350 Fifth Avenue, Manhattan, New York",
-    price: 1200,
+    location: "Sector-63, Noida",
+    price: 45000,
     priceUnit: "/month",
-    capacity: "1-4 people",
-    size: "250 sq ft",
+    capacity: "4–6 people",
+    size: "300 sq ft",
     images: [privateOfficeImg, coworkingImg, meetingRoomImg],
-    description: `Step into your own executive private office in the heart of Manhattan. This fully-furnished space offers everything you need to focus and succeed.
+    description: `Get a fully furnished executive private office in Sector-63, Noida — ideal for startups and growing teams.
 
-Located in a prestigious building with stunning city views, you'll have 24/7 access to your dedicated workspace, along with access to meeting rooms, a business lounge, and all the support services you need.`,
+This space offers privacy, premium interiors, and 24/7 access in a prime IT hub. Perfect for businesses looking for a professional environment with modern amenities.`,
     amenities: [
       { icon: Wifi, name: "High-speed WiFi" },
       { icon: Clock, name: "24/7 Access" },
-      { icon: Coffee, name: "Kitchen & Lounge" },
+      { icon: Coffee, name: "Pantry Area" },
       { icon: Car, name: "Parking Available" },
-      { icon: Shield, name: "Enterprise Security" },
-      { icon: Headphones, name: "Reception Services" },
+      { icon: Shield, name: "Access Control Security" },
+      { icon: Headphones, name: "Reception Support" },
     ],
     features: [
-      "Fully furnished with premium furniture",
-      "Floor-to-ceiling windows with city views",
-      "Private lock and key access",
-      "Personalized signage available",
-      "Monthly meeting room credits included",
-      "Professional cleaning included",
-      "Mail and package handling",
-      "IT support on-demand",
+      "Fully furnished private cabin",
+      "Dedicated air conditioning",
+      "Power backup",
+      "Meeting room credits included",
+      "Professional housekeeping",
+      "Mail & courier handling",
+      "Company signage allowed",
+      "High-speed internet included",
     ],
-    nearbyTransport: ["Grand Central Station - 5 min walk", "Times Square - 10 min walk"],
+    nearbyTransport: [
+      "Noida Electronic City Metro – 7 min",
+      "NH-24 – 5 min drive",
+    ],
     availableFrom: "Available immediately",
   },
+
   2: {
     id: 2,
-    title: "Creative Coworking Hub",
+    title: "Creative Coworking Space",
     type: "Coworking",
-    location: "123 Creative Lane, Brooklyn, New York",
-    price: 350,
+    location: "Sector-62, Noida",
+    price: 9000,
     priceUnit: "/month",
-    capacity: "1 person (hot desk)",
-    size: "Shared space",
+    capacity: "1 person",
+    size: "Shared workspace",
     images: [coworkingImg, privateOfficeImg, meetingRoomImg],
-    description: `Join our vibrant coworking community in the heart of Brooklyn. Perfect for freelancers, startups, and remote workers looking for a collaborative environment.
+    description: `Work in a vibrant coworking space located in Sector-62, Noida — ideal for freelancers, remote workers, and startups.
 
-Enjoy flexible hot desking with access to all amenities, networking events, and a supportive community of like-minded professionals.`,
+Enjoy flexible seating, a collaborative atmosphere, and all essential business amenities at an affordable price.`,
     amenities: [
       { icon: Wifi, name: "High-speed WiFi" },
       { icon: Clock, name: "24/7 Access" },
-      { icon: Coffee, name: "Free Coffee & Snacks" },
+      { icon: Coffee, name: "Tea & Coffee" },
       { icon: Users, name: "Community Events" },
-      { icon: Shield, name: "Secure Access" },
+      { icon: Shield, name: "Secure Entry" },
       { icon: Headphones, name: "Phone Booths" },
     ],
     features: [
-      "Flexible hot desk seating",
-      "Access to all common areas",
-      "Weekly networking events",
-      "Printing and scanning included",
-      "Bike storage available",
-      "Pet-friendly workspace",
-      "Wellness room access",
-      "Discounted meeting room rates",
+      "Hot desk seating",
+      "Meeting room access",
+      "Printing & scanning",
+      "Startup-friendly environment",
+      "Networking opportunities",
+      "Power backup",
+      "Air-conditioned workspace",
+      "Daily housekeeping",
     ],
-    nearbyTransport: ["L Train - 2 min walk", "G Train - 5 min walk"],
+    nearbyTransport: [
+      "Noida Sector-62 Metro – 5 min",
+      "Fortis Hospital – 3 min",
+    ],
     availableFrom: "Available immediately",
   },
+
   3: {
     id: 3,
-    title: "Premium Boardroom",
+    title: "Premium Meeting Room",
     type: "Meeting Room",
-    location: "555 Market Street, Financial District, San Francisco",
-    price: 75,
+    location: "Sector-16, Noida",
+    price: 2500,
     priceUnit: "/hour",
-    capacity: "12-16 people",
+    capacity: "12–16 people",
     size: "500 sq ft",
     images: [meetingRoomImg, privateOfficeImg, coworkingImg],
-    description: `Make an impression with our premium boardroom in San Francisco's Financial District. Perfect for client presentations, board meetings, and important discussions.
+    description: `Host impactful meetings in this premium meeting room located in Sector-16, Noida.
 
-Equipped with the latest video conferencing technology and a dedicated support team to ensure your meeting runs smoothly.`,
+Perfect for client meetings, board discussions, and presentations with modern AV setup and professional support.`,
     amenities: [
       { icon: Wifi, name: "High-speed WiFi" },
-      { icon: Building2, name: "Video Conferencing" },
-      { icon: Coffee, name: "Catering Available" },
+      { icon: Building2, name: "LED Screen & Projector" },
+      { icon: Coffee, name: "Refreshments Available" },
       { icon: Shield, name: "Private & Secure" },
       { icon: Headphones, name: "AV Support" },
-      { icon: Car, name: "Validated Parking" },
+      { icon: Car, name: "Parking Available" },
     ],
     features: [
-      "4K display with wireless presentation",
-      "Polycom video conferencing system",
-      "Whiteboard and flip charts",
-      "Ergonomic executive seating",
-      "Natural lighting with blackout options",
-      "Catering menus available",
-      "Dedicated AV technician on request",
-      "Complimentary refreshments",
+      "Large conference table",
+      "Video conferencing setup",
+      "Whiteboard & markers",
+      "Central air conditioning",
+      "Professional seating",
+      "On-demand catering",
+      "Reception assistance",
+      "Hourly booking available",
     ],
-    nearbyTransport: ["Montgomery BART - 3 min walk", "Ferry Building - 10 min walk"],
+    nearbyTransport: [
+      "Noida Sector-16 Metro – 4 min",
+      "Sector-18 Market – 6 min",
+    ],
     availableFrom: "Book by the hour",
   },
+   4: {
+    id: 4,
+    title: "Startup Private Cabin",
+    type: "Private Office",
+    location: "Sector-1, Noida Extension",
+    price: 28000,
+    priceUnit: "/month",
+    capacity: "3–4 people",
+    size: "220 sq ft",
+    images: [privateOfficeImg, coworkingImg, meetingRoomImg],
+    description: `A compact and affordable private office in Noida Extension, perfect for startups and small teams.
+
+This space offers privacy with all essential amenities at a budget-friendly price.`,
+    amenities: [
+      { icon: Wifi, name: "High-speed WiFi" },
+      { icon: Clock, name: "24/7 Access" },
+      { icon: Car, name: "Parking Available" },
+      { icon: Shield, name: "CCTV Security" },
+    ],
+    features: [
+      "Fully furnished cabin",
+      "Dedicated AC",
+      "Power backup",
+      "Meeting room access",
+      "Startup-friendly pricing",
+    ],
+    nearbyTransport: [
+      "Gaur City Chowk – 4 min",
+      "NH-24 – 8 min",
+    ],
+    availableFrom: "Available immediately",
+  },
+
+  // ================== 5 ==================
+  5: {
+    id: 5,
+    title: "Professional Coworking Desk",
+    type: "Coworking",
+    location: "Techzone-4, Noida Extension",
+    price: 6500,
+    priceUnit: "/month",
+    capacity: "1 person",
+    size: "Shared workspace",
+    images: [coworkingImg, privateOfficeImg, meetingRoomImg],
+    description: `Affordable coworking desk in Noida Extension for freelancers, students, and remote workers.`,
+    amenities: [
+      { icon: Wifi, name: "High-speed WiFi" },
+      { icon: Coffee, name: "Tea & Coffee" },
+      { icon: Shield, name: "Secure Entry" },
+    ],
+    features: [
+      "Hot desk seating",
+      "Air-conditioned workspace",
+      "Power backup",
+      "Daily housekeeping",
+    ],
+    nearbyTransport: [
+      "Upcoming Metro Station – 6 min",
+    ],
+    availableFrom: "Available immediately",
+  },
+
+  // ================== 6 ==================
+  6: {
+    id: 6,
+    title: "Small Private Office",
+    type: "Private Office",
+    location: "Sector-63, Noida",
+    price: 45000,
+    priceUnit: "/month",
+    capacity: "5–6 people",
+    size: "320 sq ft",
+    images: [privateOfficeImg, coworkingImg, meetingRoomImg],
+    description: `A ready-to-move private office in Central Noida, ideal for growing teams.`,
+    amenities: [
+      { icon: Wifi, name: "High-speed WiFi" },
+      { icon: Clock, name: "24/7 Access" },
+      { icon: Headphones, name: "Reception Support" },
+      { icon: Shield, name: "Access Control" },
+    ],
+    features: [
+      "Fully furnished office",
+      "Meeting room credits",
+      "Professional housekeeping",
+      "Power backup",
+    ],
+    nearbyTransport: [
+      "Noida Electronic City Metro – 6 min",
+      "NH-24 – 4 min",
+    ],
+    availableFrom: "Available immediately",
+  },
+
+  // ================== 7 ==================
+  7: {
+    id: 7,
+    title: "Managed Office for Teams",
+    type: "Private Office",
+    location: "Sector-135, Noida Expressway",
+    price: 95000,
+    priceUnit: "/month",
+    capacity: "12–15 people",
+    size: "750 sq ft",
+    images: [privateOfficeImg, coworkingImg, meetingRoomImg],
+    description: `Premium managed office in a Grade-A IT building on Noida Expressway.`,
+    amenities: [
+      { icon: Wifi, name: "Enterprise Internet" },
+      { icon: Car, name: "Reserved Parking" },
+      { icon: Building2, name: "Grade-A Building" },
+      { icon: Shield, name: "24/7 Security" },
+    ],
+    features: [
+      "Customizable layout",
+      "Dedicated meeting rooms",
+      "Cafeteria access",
+      "IT & facility support",
+    ],
+    nearbyTransport: [
+      "Sector-135 Metro – 5 min",
+      "Expressway Entry – 2 min",
+    ],
+    availableFrom: "Available immediately",
+  },
+
+  // ================== 8 ==================
+  8: {
+    id: 8,
+    title: "Enterprise Corporate Office",
+    type: "Private Office",
+    location: "Sector-142, Noida Expressway",
+    price: 180000,
+    priceUnit: "/month",
+    capacity: "25–30 people",
+    size: "1600 sq ft",
+    images: [privateOfficeImg, coworkingImg, meetingRoomImg],
+    description: `Large enterprise-grade office space for MNCs and large teams.`,
+    amenities: [
+      { icon: Wifi, name: "Dedicated Internet Line" },
+      { icon: Building2, name: "Corporate Tower" },
+      { icon: Shield, name: "24/7 Security" },
+      { icon: Headphones, name: "Reception Desk" },
+    ],
+    features: [
+      "Custom branding allowed",
+      "Multiple cabins & meeting rooms",
+      "Server room provision",
+      "Facility management support",
+    ],
+    nearbyTransport: [
+      "Sector-142 Metro – 3 min",
+    ],
+    availableFrom: "Available immediately",
+  },
+
+  // ================== 9 ==================
+  9: {
+    id: 9,
+    title: "Training & Conference Hall",
+    type: "Meeting Room",
+    location: "Sector-18, Noida",
+    price: 3500,
+    priceUnit: "/hour",
+    capacity: "30–40 people",
+    size: "1200 sq ft",
+    images: [meetingRoomImg, privateOfficeImg, coworkingImg],
+    description: `Spacious conference hall suitable for training sessions, seminars, and corporate events.`,
+    amenities: [
+      { icon: Wifi, name: "High-speed WiFi" },
+      { icon: Building2, name: "Projector & Screen" },
+      { icon: Headphones, name: "Mic & Sound System" },
+      { icon: Coffee, name: "Refreshments" },
+    ],
+    features: [
+      "Flexible seating layout",
+      "Central AC",
+      "Reception support",
+      "Hourly booking",
+    ],
+    nearbyTransport: [
+      "Sector-18 Metro – 3 min",
+      "Atta Market – 2 min",
+    ],
+    availableFrom: "Book by the hour",
+  },
+
+  // ================== 10 ==================
+  10: {
+    id: 10,
+    title: "Virtual Office for GST & MCA",
+    type: "Virtual Office",
+    location: "Sector-18, Noida",
+    price: 2500,
+    priceUnit: "/month",
+    capacity: "N/A",
+    size: "Virtual",
+    images: [privateOfficeImg],
+    description: `Professional virtual office address for GST registration and company incorporation.`,
+    amenities: [
+      { icon: Mail, name: "Mail Handling" },
+      { icon: Phone, name: "Call Handling (Optional)" },
+      { icon: Shield, name: "GST & MCA Compliance" },
+    ],
+    features: [
+      "Prime business address",
+      "GST registration support",
+      "Mail & courier handling",
+    ],
+    nearbyTransport: [
+      "Sector-18 Metro – 2 min",
+    ],
+    availableFrom: "Available immediately",
+  },
 };
+
 
 const PropertyDetail = () => {
   const { id } = useParams();
@@ -297,7 +521,7 @@ const PropertyDetail = () => {
                 <div className="sticky top-24 bg-card rounded-xl border border-border p-6 shadow-lg">
                   {/* Price */}
                   <div className="mb-6">
-                    <span className="text-3xl font-bold text-foreground">${property.price}</span>
+                    <span className="text-3xl font-bold text-foreground">₹{property.price}</span>
                     <span className="text-muted-foreground">{property.priceUnit}</span>
                   </div>
 
@@ -337,11 +561,11 @@ const PropertyDetail = () => {
                   <div className="mt-6 pt-6 border-t border-border text-sm text-muted-foreground">
                     <p className="flex items-center gap-2 mb-2">
                       <Phone className="w-4 h-4" />
-                      1-800-FLEXSPACE
+                      +91 7011520785
                     </p>
                     <p className="flex items-center gap-2">
                       <Mail className="w-4 h-4" />
-                      hello@flexspace.com
+                      hello@rentTile.com
                     </p>
                   </div>
                 </div>

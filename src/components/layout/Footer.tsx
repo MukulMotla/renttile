@@ -42,7 +42,7 @@ const Footer = () => {
               <div className="w-8 h-8 rounded-lg bg-gradient-primary flex items-center justify-center">
                 <Building2 className="w-5 h-5 text-primary-foreground" />
               </div>
-              <span className="text-xl font-bold">FlexSpace</span>
+              <span className="text-xl font-bold">RentTile</span>
             </Link>
             <p className="text-muted-foreground text-sm mb-6">
               Flexible workspace solutions designed around your needs. Work wherever business takes you.
@@ -120,15 +120,15 @@ const Footer = () => {
             <ul className="space-y-3">
               <li className="flex items-center gap-2 text-sm text-muted-foreground">
                 <Phone className="w-4 h-4 text-primary" />
-                <span>1-800-FLEXSPACE</span>
+                <span>+91 7011520785</span>
               </li>
               <li className="flex items-center gap-2 text-sm text-muted-foreground">
                 <Mail className="w-4 h-4 text-primary" />
-                <span>hello@flexspace.com</span>
+                <span>hello@renttile.com</span>
               </li>
               <li className="flex items-start gap-2 text-sm text-muted-foreground">
                 <MapPin className="w-4 h-4 text-primary flex-shrink-0 mt-0.5" />
-                <span>100+ locations worldwide</span>
+                <span>100+ locations </span>
               </li>
             </ul>
           </div>
@@ -156,7 +156,7 @@ const Footer = () => {
         <div className="container mx-auto px-4 py-6">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
             <p className="text-sm text-muted-foreground">
-              © {new Date().getFullYear()} FlexSpace. All rights reserved.
+              © {new Date().getFullYear()} RentTile. All rights reserved.
             </p>
             <div className="flex gap-6">
               <Link to="/contact" className="text-sm text-muted-foreground hover:text-primary transition-colors">

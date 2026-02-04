@@ -43,7 +43,7 @@ const Header = () => {
             <div className="w-8 h-8 rounded-lg bg-gradient-primary flex items-center justify-center">
               <Building2 className="w-5 h-5 text-primary-foreground" />
             </div>
-            <span className="text-xl font-bold text-foreground">FlexSpace</span>
+            <span className="text-xl font-bold text-foreground">RentTile</span>
           </Link>
 
           {/* Desktop Navigation */}
@@ -107,11 +107,11 @@ const Header = () => {
 
             {/* Phone CTA */}
             <a 
-              href="tel:+1-800-FLEXSPACE" 
+              href="tel:+91 7011520785" 
               className="hidden md:flex items-center gap-2 text-sm font-medium text-foreground hover:text-primary transition-colors"
             >
               <Phone className="w-4 h-4" />
-              <span>1-800-FLEX</span>
+              <span>+91 7011520785</span>
             </a>
 
             {/* Contact Button */}

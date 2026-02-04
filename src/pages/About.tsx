@@ -46,19 +46,19 @@ const About = () => {
   ];
 
   const team = [
-    { name: "Sarah Johnson", role: "CEO & Founder", initial: "SJ" },
-    { name: "Michael Chen", role: "Chief Operating Officer", initial: "MC" },
-    { name: "Emily Rodriguez", role: "VP of Customer Success", initial: "ER" },
-    { name: "David Kim", role: "VP of Real Estate", initial: "DK" },
+    { name: "Mukul Molta", role: "CEO & Founder", initial: "SJ" },
+    { name: "Vishal Saxena", role: "Chief Operating Officer", initial: "MC" },
+    { name: "Gaurav", role: "VP of Customer Success", initial: "ER" },
+    // { name: "David Kim", role: "VP of Real Estate", initial: "DK" },
   ];
 
   return (
     <>
       <Helmet>
-        <title>About Us | FlexSpace - Flexible Workspace Solutions</title>
+        <title>About Us | RentTile - Flexible Workspace Solutions</title>
         <meta 
           name="description" 
-          content="Learn about FlexSpace's mission to provide flexible workspace solutions worldwide. 30+ years of experience, 4,000+ locations, 2M+ members." 
+          content="Learn about RentTile's mission to provide flexible workspace solutions worldwide. 30+ years of experience, 4,000+ locations, 2M+ members." 
         />
       </Helmet>
 
@@ -79,7 +79,7 @@ const About = () => {
               Empowering the Future of Work
             </h1>
             <p className="text-xl text-primary-foreground/90 max-w-3xl mx-auto">
-              For over 30 years, FlexSpace has been revolutionizing how people work. 
+              For over 5 years, RentTile has been revolutionizing how people work. 
               We believe that the right workspace can transform businesses and lives.
             </p>
           </div>
@@ -111,13 +111,13 @@ const About = () => {
                 </h2>
                 <div className="space-y-4 text-muted-foreground">
                   <p>
-                    FlexSpace was founded in 1989 with a simple vision: to give businesses 
+                    RentTile was founded in 2021 with a simple vision: to give businesses 
                     the flexibility they need to thrive. What started as a single serviced 
                     office in downtown Manhattan has grown into the world's largest network 
                     of flexible workspaces.
                   </p>
                   <p>
-                    Today, we serve millions of members across 100+ cities worldwide. From 
+                    Today, we serve millions of members across 100+ locations. From 
                     startups and freelancers to Fortune 500 companies, our diverse community 
                     shares a common belief: work should fit around life, not the other way around.
                   </p>
@@ -125,7 +125,7 @@ const About = () => {
                     We're proud to lead the flexible workspace revolution, continuously 
                     innovating to meet the evolving needs of modern businesses. Whether you 
                     need a private office, a coworking desk, or a virtual business address, 
-                    FlexSpace has you covered.
+                    RentTile has you covered.
                   </p>
                 </div>
                 <Link to="/listings">
@@ -226,7 +226,7 @@ const About = () => {
               Join Our Community
             </h2>
             <p className="text-lg text-primary-foreground/90 max-w-2xl mx-auto mb-8">
-              Ready to experience the FlexSpace difference? Find your perfect workspace today.
+              Ready to experience the RentTile difference? Find your perfect workspace today.
             </p>
             <div className="flex flex-col sm:flex-row justify-center gap-4">
               <Link to="/listings">
@@ -238,7 +238,7 @@ const About = () => {
                 <Button 
                   size="lg" 
                   variant="outline" 
-                  className="border-primary-foreground/30 text-primary-foreground hover:bg-primary-foreground/10"
+                  className="border-primary-foreground/30  hover:bg-primary-foreground/10"
                 >
                   Contact Us
                 </Button>

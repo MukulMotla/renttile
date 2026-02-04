@@ -43,51 +43,112 @@ const allListings = [
     id: 1,
     title: "Executive Private Office",
     type: "office",
-    location: "Manhattan, New York",
-    price: 1200,
+    location: "Sector-63, Noida",
+    price: 45000,
     priceUnit: "/month",
-    capacity: "1-4",
+    capacity: "4-6",
     image: privateOfficeImg,
-    amenities: ["WiFi", "24/7 Access"],
+    amenities: ["WiFi", "24/7 Access", "Parking"],
     featured: true,
   },
   {
     id: 2,
-    title: "Creative Coworking Hub",
+    title: "Creative Coworking Space",
     type: "coworking",
-    location: "Brooklyn, New York",
-    price: 350,
+    location: "Sector-62, Noida",
+    price: 9000,
     priceUnit: "/month",
     capacity: "1",
     image: coworkingImg,
-    amenities: ["Coffee", "Networking"],
+    amenities: ["WiFi", "Tea/Coffee", "Community"],
     featured: false,
   },
   {
     id: 3,
-    title: "Premium Boardroom",
+    title: "Premium Meeting Room",
     type: "meeting",
-    location: "San Francisco",
-    price: 75,
+    location: "Sector-16, Noida",
+    price: 2500,
     priceUnit: "/hour",
     capacity: "12-16",
     image: meetingRoomImg,
-    amenities: ["AV", "Whiteboard"],
+    amenities: ["Projector", "AV Support", "Whiteboard"],
     featured: false,
   },
   {
     id: 4,
-    title: "Virtual Business Address",
+    title: "Startup Private Cabin",
+    type: "office",
+    location: "Sector-1, Noida Extension",
+    price: 28000,
+    priceUnit: "/month",
+    capacity: "3-4",
+    image: privateOfficeImg,
+    amenities: ["WiFi", "Parking", "Power Backup"],
+    featured: true,
+  },
+  {
+    id: 5,
+    title: "Budget Coworking Desk",
+    type: "coworking",
+    location: "Techzone-4, Noida Extension",
+    price: 6500,
+    priceUnit: "/month",
+    capacity: "1",
+    image: coworkingImg,
+    amenities: ["WiFi", "AC", "Housekeeping"],
+    featured: false,
+  },
+  {
+    id: 6,
+    title: "Managed Office for Teams",
+    type: "office",
+    location: "Sector-135, Noida Expressway",
+    price: 95000,
+    priceUnit: "/month",
+    capacity: "12-15",
+    image: privateOfficeImg,
+    amenities: ["Grade-A Building", "Security", "Parking"],
+    featured: true,
+  },
+  {
+    id: 7,
+    title: "Enterprise Corporate Office",
+    type: "office",
+    location: "Sector-142, Noida Expressway",
+    price: 180000,
+    priceUnit: "/month",
+    capacity: "25-30",
+    image: privateOfficeImg,
+    amenities: ["Dedicated Internet", "Reception", "Security"],
+    featured: true,
+  },
+  {
+    id: 8,
+    title: "Training & Conference Hall",
+    type: "meeting",
+    location: "Sector-18, Noida",
+    price: 3500,
+    priceUnit: "/hour",
+    capacity: "30-40",
+    image: meetingRoomImg,
+    amenities: ["Projector", "Mic System", "Refreshments"],
+    featured: false,
+  },
+  {
+    id: 9,
+    title: "Virtual Office for GST & MCA",
     type: "virtual",
-    location: "Chicago",
-    price: 99,
+    location: "Sector-18, Noida",
+    price: 2500,
     priceUnit: "/month",
     capacity: "N/A",
     image: virtualOfficeImg,
-    amenities: ["Mail Handling"],
+    amenities: ["GST Address", "Mail Handling"],
     featured: true,
   },
 ];
+
 
 const workspaceTypes = [
   { id: "all", label: "All Types" },
@@ -196,13 +257,13 @@ const Listings = () => {
       {/* Price */}
       <div>
         <label className="text-sm font-medium mb-2 block">
-          Price: ${priceRange[0]} – ${priceRange[1]}
+          Price: ₹{priceRange[0]} – ₹{priceRange[1]}
         </label>
         <Slider
           value={priceRange}
           onValueChange={setPriceRange}
           min={0}
-          max={3000}
+          max={100000}
           step={50}
         />
       </div>
@@ -270,7 +331,7 @@ const Listings = () => {
                           {item.location}
                         </p>
                         <p className="mt-2 font-bold">
-                          ${item.price}
+                          ₹{item.price}
                           <span className="text-sm">{item.priceUnit}</span>
                         </p>
                       </div>

@@ -7,44 +7,113 @@ import coworkingImg from "@/assets/coworking-space.jpg";
 import meetingRoomImg from "@/assets/meeting-room.jpg";
 
 const FeaturedListings = () => {
-  const listings = [
-    {
-      id: 1,
-      title: "Executive Private Office",
-      type: "Private Office",
-      location: "Manhattan, New York",
-      price: 1200,
-      priceUnit: "/month",
-      capacity: "1-4",
-      image: privateOfficeImg,
-      amenities: ["High-speed WiFi", "24/7 Access", "Meeting Room Credits"],
-      featured: true,
-    },
-    {
-      id: 2,
-      title: "Creative Coworking Hub",
-      type: "Coworking",
-      location: "Brooklyn, New York",
-      price: 350,
-      priceUnit: "/month",
-      capacity: "1",
-      image: coworkingImg,
-      amenities: ["Community Events", "Free Coffee", "Networking"],
-      featured: false,
-    },
-    {
-      id: 3,
-      title: "Premium Boardroom",
-      type: "Meeting Room",
-      location: "Financial District, SF",
-      price: 75,
-      priceUnit: "/hour",
-      capacity: "12-16",
-      image: meetingRoomImg,
-      amenities: ["Video Conferencing", "Catering", "Whiteboard"],
-      featured: false,
-    },
-  ];
+ const listings = [
+  {
+    id: 1,
+    title: "Executive Private Office",
+    type: "Private Office",
+    location: "Sector-63, Noida",
+    price: 45000,
+    priceUnit: "/month",
+    capacity: "4-6",
+    image: privateOfficeImg,
+    amenities: [
+      "High-speed WiFi",
+      "24/7 Access",
+      "Dedicated Cabin",
+      "Meeting Room Credits",
+      "Power Backup",
+    ],
+    featured: true,
+  },
+  {
+    id: 2,
+    title: "Premium Private Office",
+    type: "Private Office",
+    location: "Sector-62, Noida",
+    price: 70000,
+    priceUnit: "/month",
+    capacity: "8-12",
+    image: privateOfficeImg,
+    amenities: [
+      "Reception Service",
+      "High-speed WiFi",
+      "24/7 Access",
+      "Conference Room",
+      "Parking",
+    ],
+    featured: false,
+  },
+  {
+    id: 3,
+    title: "Creative Coworking Space",
+    type: "Coworking",
+    location: "Sector-18, Noida",
+    price: 8500,
+    priceUnit: "/month",
+    capacity: "1",
+    image: coworkingImg,
+    amenities: [
+      "Hot Desk",
+      "Free Tea & Coffee",
+      "High-speed WiFi",
+      "Community Events",
+    ],
+    featured: true,
+  },
+  {
+    id: 4,
+    title: "Dedicated Desk Coworking",
+    type: "Coworking",
+    location: "Sector-135, Noida",
+    price: 12000,
+    priceUnit: "/month",
+    capacity: "1",
+    image: coworkingImg,
+    amenities: [
+      "Dedicated Desk",
+      "Locker",
+      "WiFi",
+      "Meeting Room Access",
+    ],
+    featured: false,
+  },
+  {
+    id: 5,
+    title: "Professional Meeting Room",
+    type: "Meeting Room",
+    location: "Sector-62, Noida",
+    price: 1200,
+    priceUnit: "/hour",
+    capacity: "6-8",
+    image: meetingRoomImg,
+    amenities: [
+      "LED Screen",
+      "Whiteboard",
+      "Video Conferencing",
+      "Tea/Coffee",
+    ],
+    featured: false,
+  },
+  {
+    id: 6,
+    title: "Premium Boardroom",
+    type: "Meeting Room",
+    location: "Sector-16, Noida",
+    price: 2500,
+    priceUnit: "/hour",
+    capacity: "12-16",
+    image: meetingRoomImg,
+    amenities: [
+      "Video Conferencing",
+      "Projector",
+      "Catering Support",
+      "Whiteboard",
+    ],
+    featured: true,
+  },
+];
+
 
   return (
     <section className="py-20 bg-muted">
@@ -128,7 +197,7 @@ const FeaturedListings = () => {
                       <span>{listing.capacity} people</span>
                     </div>
                     <div className="text-right">
-                      <span className="text-xl font-bold text-foreground">${listing.price}</span>
+                      <span className="text-xl font-bold text-foreground">₹{listing.price}</span>
                       <span className="text-sm text-muted-foreground">{listing.priceUnit}</span>
                     </div>
                   </div>

@@ -50,7 +50,7 @@ const FeatureSection = () => {
               </span>
             </h2>
             <p className="text-lg text-muted-foreground mb-8">
-              With over 4,000 locations globally, you'll always find the perfect space 
+              With over 100+ locations, you'll always find the perfect space 
               for productive work. Whether you need a quiet corner or a collaborative 
               environment, we've got you covered.
             </p>
@@ -80,15 +80,15 @@ const FeatureSection = () => {
           <div className="bg-gradient-dark rounded-2xl p-8 md:p-12 text-primary-foreground">
             <div className="grid grid-cols-2 gap-8">
               <div className="text-center">
-                <div className="text-4xl md:text-5xl font-bold mb-2">4,000+</div>
+                <div className="text-4xl md:text-5xl font-bold mb-2">1000+</div>
                 <div className="text-primary-foreground/70">Locations</div>
               </div>
               <div className="text-center">
-                <div className="text-4xl md:text-5xl font-bold mb-2">100+</div>
+                <div className="text-4xl md:text-5xl font-bold mb-2">4+</div>
                 <div className="text-primary-foreground/70">Cities</div>
               </div>
               <div className="text-center">
-                <div className="text-4xl md:text-5xl font-bold mb-2">2M+</div>
+                <div className="text-4xl md:text-5xl font-bold mb-2">2K+</div>
                 <div className="text-primary-foreground/70">Members</div>
               </div>
               <div className="text-center">
@@ -102,7 +102,7 @@ const FeatureSection = () => {
                 Join the world's largest network of flexible workspaces
               </p>
               <Link to="/contact">
-                <Button variant="outline" className="border-primary-foreground/30 text-primary-foreground hover:bg-primary-foreground/10">
+                <Button variant="outline" className="border-primary-foreground/30 text-foreground hover:bg-primary-foreground/10">
                   Talk to an Expert
                 </Button>
               </Link>

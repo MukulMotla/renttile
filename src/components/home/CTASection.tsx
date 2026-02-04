@@ -28,7 +28,7 @@ const CTASection = () => {
             <Button 
               size="lg" 
               variant="outline" 
-              className="border-primary-foreground/30 text-primary-foreground hover:bg-primary-foreground/10 min-w-[180px]"
+              className="border-primary-foreground/30 text-foreground hover:bg-primary-foreground/10 min-w-[180px]"
             >
               <Phone className="w-4 h-4 mr-2" />
               Talk to Expert
